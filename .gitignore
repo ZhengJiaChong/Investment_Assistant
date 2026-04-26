@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursorindexingignore
+.specstory/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database (如果需要版本控制可以注释掉)
+# *.db
+
+# 旧的项目文件（包含硬编码 API Key，不应上传）
+assistant_ticket_bot-3.py
+stock_query_assistant*.py
+stock_data.py
+stock_query_streamlit.py
+stock_history_data.csv
+stock_history_data.sql
+
+# 参考项目
+fufan-chat-api-main/
+
+# 生成的图片（保留目录结构）
+image_show/*.png
+image_show/*.jpg
+image_show/*.jpeg
+
+# 后端生成的图片
+backend/image_show/*.png
+backend/image_show/*.jpg
+backend/image_show/*.jpeg
+
+# 临时目录
+workspace/
+backend/workspace/
+
+# 日志
+*.log
+logs/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
